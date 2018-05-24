@@ -19,7 +19,7 @@ class SelectInput extends Component {
         return (
             <Select 
                 onChange = {this.handleChange}
-                value={this.props.state.sortBy}
+                value={this.props.state.sortBy || ''}
                 inputProps={{
                     name: 'sortBy',
                 }}

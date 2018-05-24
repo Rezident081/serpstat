@@ -11,12 +11,12 @@ class Navbar extends Component {
         <AppBar position="static">
             <Toolbar>
                 <Grid container spacing={16} alignItems="center">
-                    <Grid item lg="3" md={4} xs={12}>
+                    <Grid item lg={3} md={4} xs={12}>
                         <Typography variant="title" color="inherit">
                             Serpstat - test
                         </Typography>
                     </Grid>
-                    <Grid item lg="9" md={8} xs={12}>
+                    <Grid item lg={9} md={8} xs={12}>
                         <Form />
                     </Grid>
                 </Grid>

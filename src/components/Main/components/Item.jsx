@@ -20,7 +20,7 @@ class Item extends Component {
                     <p> { body } </p>
                     <p> <i> Post date </i> : { date }</p>
                     <p> <i> View </i> : { view }</p>
-                    <Link to={`/${id}`} className="read-more-link">Read more</Link>
+                    <Link to={`/post/${id}`} className="read-more-link">Read more</Link>
                 </Paper>
             </Grid>
         );

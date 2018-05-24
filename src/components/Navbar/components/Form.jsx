@@ -23,12 +23,12 @@ class Form extends Component {
         return (
             <form autoComplete="off" onSubmit={this.handleSubmit}>
                 <Grid container spacing={40}>
-                    <Grid item lg="8" md={6} xs={12}>
+                    <Grid item lg={8} md={6} xs={12}>
                         <FormControl className="form-control">
                             <SearchInput handleSearch = {this.props.dispatch} />
                         </FormControl>
                     </Grid>
-                    <Grid item lg="4" md={6} xs={12}>
+                    <Grid item lg={4} md={6} xs={12}>
                         <FormControl className="form-control">
                             <SelectInput/>
                         </FormControl>
