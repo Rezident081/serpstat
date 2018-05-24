@@ -10,7 +10,7 @@ module.exports = {
     entry: config.entry_file,
     output: {
         path: path.resolve(__dirname, config.build_path),
-        filename: 'js/[name].bundle.js'
+        filename: '[name].bundle.js'
     },
     module: {
         rules: [
@@ -54,7 +54,7 @@ module.exports = {
             template: config.html_file,
         }),
         new MiniCssExtractPlugin({
-            filename: "css/[name].css",
+            filename: "[name].css",
         }),
         new UglifyJsPlugin()
       ],
