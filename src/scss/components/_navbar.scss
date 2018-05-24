@@ -1,0 +1,19 @@
+.form-control{
+    width: 100%;
+    & > div{
+        &:before{
+            border-bottom: 1px solid #fff;
+        }
+        &:after{
+            border-bottom: 1px solid #fff;
+        }
+    }
+    
+    & div{
+        color: #fff;
+    }
+
+    .search-btn{
+        color: #fff;
+    }
+}

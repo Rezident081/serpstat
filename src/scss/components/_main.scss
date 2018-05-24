@@ -1,0 +1,20 @@
+.main-container{
+    padding: 15px;
+    .paper-block{
+        padding: 15px;
+        background: #e6e6e6;
+        min-height: 180px;
+        .read-more-link{
+            text-decoration: none;
+            color: #060bff;
+        }
+    }
+    .navigation-link{
+        a{
+            display: inline-block;
+            text-decoration: none;
+            color: #060bff;
+            margin-bottom: 15px;
+        }
+    }
+}
